@@ -1,0 +1,22 @@
+-- 
+-- trace des commandes 
+--
+
+-- duplication du sample
+-- se positionner sur le répertoire cible
+-- cd ...
+git remote add OC https://github.com/Cedodido/test_git.git
+git clone https://github.com/Cedodido/test_git.git
+
+cd test_git
+
+git init
+
+-- consultation des branches
+git branch
+
+-- ajout suppression d'une branche
+git branch toto
+git branch -d toto
+
+
